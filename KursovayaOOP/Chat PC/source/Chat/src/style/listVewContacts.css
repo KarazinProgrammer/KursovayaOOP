@@ -1,0 +1,6 @@
+.list-view{
+    -fx-focus-color: dodgerblue;
+    -fx-accent: dodgerblue;
+    -fx-faint-focus-color: dodgerblue;
+    -fx-selection-bar-non-focused: dodgerblue;
+}

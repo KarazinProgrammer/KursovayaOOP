@@ -1,0 +1,100 @@
+.anchor-pane {
+    -fx-background-color: black;
+}
+
+.titled-pane .title{
+    -fx-insets: 0 0 0 0;
+    -fx-background-color: dodgerblue;
+    -fx-text-fill: #ffffff;
+    -fx-focus-color: dodgerblue;
+    -fx-border: 1 1 1 1;
+    -fx-border-color: dodgerblue;
+    -fx-selection-bar-non-focused: dodgerblue;
+}
+
+.titled-pane {
+    -fx-text-fill: #ffffff;
+    -fx-focus-color: dodgerblue;
+    -fx-selection-bar-non-focused: dodgerblue;
+
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-focus-color: #ffffff;
+    -fx-accent: #ffffff;
+    -fx-faint-focus-color: #ffffff;
+    -fx-selection-bar-non-focused: #ffffff;
+}
+
+.text-area {
+    -fx-focus-color: #dcdcdc; /*выделение объекта*/
+    -fx-accent: #1E90FF; /*выделение текста*/
+}
+
+.text-field {
+    -fx-accent: dodgerblue;
+    -fx-focus-color: #000000;
+    -fx-focus-color: #e3e3e3;
+    -fx-shadow-highlight-color: #FFFFFF;
+    -fx-faint-focus-color:#FFFFFF;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0.3;
+}
+
+.tab-pane {
+    -fx-accent: #e6e6e6;
+    -fx-focus-color: #1E90FF;
+    -fx-tab-min-width:50px;
+    -fx-background-color: #ffffff; /* цвет за вкладками*/
+}
+
+.tab {
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #00bfff; /* цвет невыбранной вкладки*/
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #1E90FF; /* цвет выбранной вкладки */
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff; /* цвет текста на невыбранной вкладке */
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff; /* цвет текста на выбранной вкладке */
+ }
+
+.button {
+    -fx-font-family: 'Roboto';
+    -fx-text-fill: #444;
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0;
+    -fx-padding: 6 12;
+    -fx-background-radius: 2px;
+    -fx-effect: dropshadow(two-pass-box, rgba(0,0,0,0.25), 4, 0.0, 0, 1);
+}
+
+.button:pressed {
+    -fx-effect: dropshadow(two-pass-box, rgba(1,0,0,0.25), 8, 0.0, 0, 3);
+}
+
+.button:focused {
+    -fx-background-color:
+        rgba(245, 245, 245, 1),
+        rgba(230, 230, 230, 1);
+    -fx-background-insets: 0, 1;
+}
